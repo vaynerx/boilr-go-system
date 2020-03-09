@@ -1,0 +1,7 @@
+target
+*.bak
+*.test
+.idea
+api/*
+!api/.gitkeep
+vendor
