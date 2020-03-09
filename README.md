@@ -1,19 +1,18 @@
-# Boilr Template for a Minimal Electron Application
-This is a minimal Electron application template based on the Electron documentation.
+# Boilr template for a gRPC micro-service
+This is a minimal application template for a gRPC micro-service written in Go.
 
 ## Contents
-- `index.js` - A web page to render
-- `main.js` - Starts the app and creates a browser window to render HTML.
-- `package.js` - Points to the app's main file and lists its details and dependencies.
-
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
+- `api`
+- `cmd`
+- `config`
+- `internal`
 
 ## Install
-Install [boilr](https://github.com/tmrts/boilr) first. then use,
-`boilr template download tmrts/boilr-electron electron`
+Install [boilr](https://github.com/vaynerx/boilr) first. then use,
+`boilr template download vaynerx/boilr-go-system go-system`
 
 ## Usage
-`boilr template use electron <target-dir>`
+`boilr template use go-system <target-dir>`
 
 ## More Information
-For more information please check [boilr](https://github.com/tmrts/boilr)
+For more information please check [boilr](https://github.com/vaynerx/boilr)
