@@ -13,58 +13,5 @@
         "Apache Software License 2.0",
         "MIT",
         "GNU GPL v3.0"
-    ],
-    "UseMoreTroveClassifiers": {
-        "IntendedAudience": [
-            "Customer Service",
-            "Developers",
-            "Education",
-            "End Users/Desktop",
-            "Financial and Insurance Industry",
-            "Healthcare Industry",
-            "Information Technology",
-            "Legal Industry",
-            "Manufacturing",
-            "Other Audience",
-            "Religion",
-            "Science/Research",
-            "System Administrators",
-            "Telecommunications Industry"
-        ],
-        "Topic": [
-            "Adaptive Technologies",
-            "Artistic Software",
-            "Communications",
-            "Database",
-            "Desktop Environment",
-            "Documentation",
-            "Education",
-            "Games/Entertainment",
-            "Home Automation",
-            "Internet",
-            "Multimedia",
-            "Office/Business",
-            "Other/Nonlisted Topic",
-            "Printing",
-            "Religion",
-            "Scientific/Engineering",
-            "Security",
-            "Sociology",
-            "Software Development",
-            "System",
-            "Terminals",
-            "Text Editors",
-            "Text Processing",
-            "Utilities"
-        ],
-        "Development Status": [
-            "Planning",
-            "Pre-Alpha",
-            "Alpha",
-            "Beta",
-            "Production/Stable",
-            "Mature",
-            "Inactive"
-        ]
-    },
+    ]    
 }
