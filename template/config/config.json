@@ -1,3 +1,81 @@
 {
-  
+  "remoteConfigProvider": "",
+  "remoteConfigEndpoint": "",
+  "remoteConfigPath": "",
+  "remoteConfigSecretKeyring": "",
+  "api": {
+    "main": {
+      "host": "api-main",
+      "port": "50000",
+      "address": "api-main:50000"
+    }
+  },
+  "system": {
+    "account": {
+      "host": "system-account",
+      "port": "50100",
+      "address": "system-account:50100"
+    },
+    "auth": {
+      "host": "system-auth",
+      "port": "50110",
+      "address": "system-auth:50110"
+    },
+    "media": {
+      "host": "system-media",
+      "port": "50120",
+      "address": "system-media:50120"
+    },
+    "youtube": {
+      "host": "system-youtube",
+      "port": "50130",
+      "address": "system-youtube:50130"
+    }
+  },
+  "client": {
+    "auth": {
+      "host": "client-auth",
+      "port": "50200",
+      "address": "client-auth:50200"
+    },
+    "main": {
+      "host": "client-main",
+      "port": "50210",
+      "address": "client-main:50210"
+    }
+  },
+  "app": {
+    "hydra": {
+      "host": "app-hydra",
+      "port": "50300",
+      "address": "app-hydra:50300",
+      "adminHost": "app-hydra",
+      "adminPort": "50301",
+      "adminAddress": "app-hydra:50301"
+    },
+    "postgresql": {
+      "host": "app-postgresql",
+      "port": "50310",
+      "address": "app-postgresql:50310",
+      "username": "postgresql",
+      "password": "993fbd4d-dc77-4d57-8f36-867b5a60b789"
+    },
+    "prisma": {
+      "host": "app-prisma",
+      "port": "50320",
+      "address": "app-prisma:50320",
+      "secret": "9d9f7fd2-6ec0-4a56-a6b3-96e7ed146f39"
+    },
+    "nginx": {
+      "host": "app-nginx",
+      "port": "50330",
+      "address": "app-nginx:50330",
+      "secret": "9d9f7fd2-6ec0-4a56-a6b3-96e7ed146f39"
+    },
+    "kafka": {
+      "host": "app-kafka",
+      "port": "50330",
+      "address": "app-kafka:50340"
+    }
+  }
 }

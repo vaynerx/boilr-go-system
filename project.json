@@ -3,7 +3,6 @@
     "Owner": "VaynerX",
     "Email": "admin@vaynerx.com",
     "Project": "gosystem",
-    "System": "main",
     "Repository": "https://github.com/vaynerx",
     "Title": "Go API",
     "Description": "A full featured API written in Go.",

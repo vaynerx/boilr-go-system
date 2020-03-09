@@ -17,7 +17,7 @@ import (
 
 // InitGPRC ...
 func (app *App) InitGPRC(ctx context.Context) error {
-	listen, err := net.Listen("tcp", fmt.Sprintf(":%s", app.config.system.{{ PackageName }}.Port))
+	listen, err := net.Listen("tcp", fmt.Sprintf(":%s", local.server.Port))
 	if err != nil {
 		return err
 	}
